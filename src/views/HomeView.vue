@@ -2,7 +2,7 @@
   <div class="parallax"></div>
   <Home id="home" msg="Welcome to Your Vue.js App" />
   <ExperienceView  id="experience"/>
-  <ProjectView id="projects" />
+  <ContactView id="contact" />
   <!-- <div style="height:1000px;background-color:red;font-size:36px">
     This div is just here to enable scrolling.
     Tip: Try to remove the background-attachment property to remove the scrolling effect.
@@ -15,14 +15,14 @@
 // @ is an alias to /src
 import Home from '@/components/Home'
 import ExperienceView from '@/views/ExperienceView';
-import ProjectView from '@/views/ProjectView'
+import ContactView from '@/views/ContactView'
 
 export default {
   name: 'HomeView',
   components: {
     Home,
     ExperienceView,
-    ProjectView
+    ContactView
   }
 }
 </script>

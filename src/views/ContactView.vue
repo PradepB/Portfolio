@@ -1,14 +1,14 @@
 <template>
-    <Project />
+    <Contact />
 </template>
   
 <script>
-import Project from '@/components/Project'
+import Contact from '@/components/Contact'
 
 export default {
-    name: 'ProjectView',
+    name: 'ContactView',
     components: {
-        Project
+        Contact
     }
 }
 </script>

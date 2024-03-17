@@ -7,17 +7,13 @@
                             d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
                     </svg></a></li>
             <li><a v-scroll-to="'#experience'" @click="routePages('/experience')">Experience</a></li>
-            <li><a v-scroll-to="'#projects'"  @click="routePages('/projects')">Project</a> </li>
-            <li><a @click="routePages('/')">Blog</a></li>
-            <li><a @click="routePages('/')">Contact</a></li>
+            <li><a v-scroll-to="'#contact'"  @click="routePages('/contact')">Contact</a> </li>
 
         </ul>
         <ul>
             <li><router-link to="/">Home</router-link></li>
             <li class="hideOnMobile"><a v-scroll-to="'#experience'">Experience</a></li>
-            <li class="hideOnMobile"><a v-scroll-to="'#projects'">Project</a></li>
-            <li class="hideOnMobile"><a @click="routePages('/')">Blog</a></li>
-            <li class="hideOnMobile"><a @click="routePages('/')">Contact</a></li>
+            <li class="hideOnMobile"><a v-scroll-to="'#contact'">Contact</a></li>
             <li class="menubtn" @click="showSidebar()"><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="26"
                         viewBox="0 -960 960 960" width="26">
                         <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
