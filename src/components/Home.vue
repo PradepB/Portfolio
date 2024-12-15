@@ -1,9 +1,17 @@
 <template>
   <div>
-    <p class="name"> <span class="name_"> Hey, I'm <b>{{ name }} </b> </span> <br />
-      <span class="info"> I'm a software developer, I like coding cool stuff for cool
-        people. I'm looking to develope my skills in the field.</span>
-    </p>
+    <div class="name">
+      <div class="text-animation">
+        <h1 class="name_">
+          Hey, I'm {{ name }}
+        </h1>
+      </div>
+      <p>
+        <span class="info"> I'm a software developer, I like coding cool stuff for cool
+          people. I'm looking to develope my skills in the field.</span>
+      </p>
+    </div>
+
   </div>
 </template>
 
@@ -16,7 +24,7 @@ export default {
     }
   },
   components: {
-   
+
   },
   props: {
     msg: String
@@ -34,6 +42,25 @@ export default {
 
 .name_ {
   font-size: 50px;
+}
+
+.text-animation {
+  color: white;
+  border-right: 3px solid orangered;
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing steps(20, end)forwards infinite 8s
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+  }
 }
 
 .info {
@@ -55,8 +82,8 @@ export default {
     padding-top: 10%;
   }
 
-  .name {
-    width: 60%;
+  .name_ {
+    font-size: 25px;
   }
 }
 </style>
