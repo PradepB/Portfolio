@@ -48,7 +48,7 @@ export default {
                     heading: "TCS", content: "Engaged in the continuous improvement of our retail online website, I focus on the development of innovative features. This involves collaboration with HUB and GCP components to optimize the platform's functionality and performance.",
                     year: '2021-Present', location: 'Chennai', url: 'https://www.tcs.com',
                     img: "TCS_logo.png",
-                    skills: ['JavaScript', 'vue.js', 'Backbone.js', 'Figma', 'Confluence', 'Jira', 'Git', 'GCP', 'Adobe Analytics']
+                    skills: [ 'React.js','NextJs', 'JavaScript', 'Amplience', 'Figma', 'Confluence', 'Jira', 'Git', 'GCP', 'Adobe Analytics']
                 },
                 {
                     heading: "Sify Technologies", content: "Create full-stack applications and craft APIs tailored for Unity, ensuring seamless integration and optimal performance. Develop and maintain database structures, with a focus on MongoDB, to support the application's backend functionality.",
